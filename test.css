@@ -1,0 +1,95 @@
+/* TEST */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.test-text {
+  position: absolute;
+  bottom: -100%;
+  background-color: rgba(255, 255, 0, 0.5);
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+
+  transform: translateY(0);
+
+  transition-property: transform;
+  transition-duration: 2500ms;
+}
+
+.img-and-text {
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.li-test {
+  width: 300px;
+}
+
+.li-test:hover .test-text,
+.li-test:focus .test-text {
+  transform: translateY(-100%);
+}
+
+.button {
+  width: 90px;
+  height: 90px;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.modal-test {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: salmon 1px solid;
+  width: 500px;
+  height: 500px;
+  background-image: url(./images/portfolioimg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backdrope-test.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrope-test {
+  position: absolute;
+
+  transition-property: opacity;
+
+  position: fixed;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(124, 252, 0, 0.5);
+}
+
+.icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: yellow;
+
+  transition-property: background-color;
+  transition-duration: 2500ms;
+}
+
+.input:checked + .icon {
+  background-color: red;
+}
