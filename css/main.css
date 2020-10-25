@@ -282,7 +282,7 @@ ul {
 }
 
 .modal-label__input {
-  transition-property: border, fill;
+  transition-property: border fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   width: 448px;
@@ -613,7 +613,7 @@ ul {
   fill: #757575;
   padding: 12px;
   border-radius: 50%;
-  transition-property: color, fill, background-color;
+  transition-property: color fill background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -656,7 +656,7 @@ ul {
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition-property: border, fill;
+  transition-property: border fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

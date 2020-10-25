@@ -38,7 +38,7 @@
   margin-bottom: 30px;
   outline: 1px solid $border-card;
 
-  @include transition($property: box-sizing, box-shadow);
+  @include transition($property: box-sizing box-shadow);
 
   // transition-property: box-sizing, box-shadow;
   // transition-duration: 250ms;

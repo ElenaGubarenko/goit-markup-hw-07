@@ -10,7 +10,7 @@
     padding: 12px;
     border-radius: 50%;
 
-    @include transition($property: color, fill, background-color);
+    @include transition($property: color fill background-color);
 
     // transition-property: color, fill, background-color;
     // transition-duration: 250ms;

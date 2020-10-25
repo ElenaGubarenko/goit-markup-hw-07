@@ -202,7 +202,7 @@ ul {
   color: #212121;
   background-color: #f5f4fa;
   border-radius: 4px;
-  transition-property: color, background-color;
+  transition-property: color background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -251,7 +251,7 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
   outline: 1px solid #eeeeee;
-  transition-property: box-sizing, box-shadow;
+  transition-property: box-sizing box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
