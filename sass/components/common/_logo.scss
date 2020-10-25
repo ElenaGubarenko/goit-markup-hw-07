@@ -6,19 +6,19 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
 
-.logolink__logo-web {
-  color: $blue-color;
-}
+  &__logo-web {
+    color: $blue-color;
+  }
 
-.logolink_wite-background {
-  padding: 25px 0;
-  margin-right: 94px;
-}
+  &_wite-background {
+    padding: 25px 0;
+    margin-right: 94px;
+  }
 
-.logolink_black-background {
-  display: block;
-  margin-bottom: 20px;
-  color: $white-color;
+  &_black-background {
+    display: block;
+    margin-bottom: 20px;
+    color: $white-color;
+  }
 }

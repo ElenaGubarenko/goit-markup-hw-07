@@ -3,22 +3,35 @@
   padding-bottom: 60px;
   background-color: #2f303a;
   text-align: left;
-}
 
-.footer__adress {
-  margin-bottom: 9px;
+  &__adress {
+    margin-bottom: 9px;
+    color: $white-color;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+  }
 
-  color: $white-color;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  font-style: normal;
-}
+  &__list {
+    padding-left: 0;
+    margin: 0;
+  }
 
-.footer__list {
-  padding-left: 0;
-  margin: 0;
+  &-links__text {
+    margin: 0 0 20px;
+    padding: 0;
+    text-transform: uppercase;
+    color: $white-color;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 1.1;
+  }
+
+  &-container {
+    display: flex;
+  }
 }
 
 .mail {
@@ -35,18 +48,4 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-}
-
-.footer-links__text {
-  margin: 0 0 20px;
-  padding: 0;
-  text-transform: uppercase;
-  color: $white-color;
-  font-weight: 700px;
-  font-size: 14px;
-  line-height: 1.1;
-}
-
-.footer-container {
-  display: flex;
 }

@@ -1,8 +1,5 @@
 .button-close {
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  @include transition($property: fill);
   position: absolute;
 
   cursor: pointer;
@@ -15,10 +12,10 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: inherit;
   background-origin: border-box;
-}
 
-.button-close:hover,
-.button-close:focus {
-  fill: $blue-color;
-  transform: fill;
+  &:hover,
+  &:focus {
+    fill: $blue-color;
+    transform: fill;
+  }
 }
